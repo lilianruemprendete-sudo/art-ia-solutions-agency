@@ -1,5 +1,5 @@
 // CONFIGURACIÓN: reemplazá el número por el WhatsApp de ART IA en formato internacional, sin + ni espacios.
-const WHATSAPP_NUMBER = "549XXXXXXXXXX";
+const WHATSAPP_NUMBER = "5493541568331;
 const WHATSAPP_MESSAGE = "Hola, quiero consultar por los servicios de ART IA Solutions Agency.";
 const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 const cta = document.getElementById("whatsapp-cta");
