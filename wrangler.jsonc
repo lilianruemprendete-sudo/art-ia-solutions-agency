@@ -1,0 +1,12 @@
+{
+  // Worker de solo archivos estáticos (sin código de servidor).
+  "name": "art-ia-solutions-agency",
+  // Fecha fija y ya soportada por el runtime. No usar la fecha del día:
+  // si es más nueva que la versión de Wrangler del build, el despliegue falla.
+  "compatibility_date": "2025-11-01",
+  "assets": {
+    // Solo se publica la carpeta public/. Así no quedan expuestos
+    // wrangler.jsonc, README.md ni otros archivos del repositorio.
+    "directory": "./public"
+  }
+}
