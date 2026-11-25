@@ -1,9 +1,0 @@
-
-{
-  "name": "art-ia-solutions-agency",
-  "compatibility_date": "2026-11-25",
-  "assets": {
-    "directory": "./",
-    "not_found_handling": "404-page"
-  }
-}
